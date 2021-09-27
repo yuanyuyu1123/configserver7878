@@ -5,3 +5,10 @@ logging:
       rs: debug
     org:
       springframework: warn
+ spring:
+   rabbitmq:
+    host: 192.168.0.117
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /

@@ -1,1 +1,12 @@
-
+server:
+  port: 7676
+spring:
+  application:
+    name: CONFIGCLIENT
+# 日志配置
+logging:
+  level:
+    com:
+      rs: debug
+    org:
+      springframework: warn
